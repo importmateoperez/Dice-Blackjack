@@ -58,7 +58,7 @@ public class Main {
         System.out.println("Your total is " + userPoints);
         System.out.println("The computers total is " + computerPoints);
 
-        if (userPoints > computerPoints && computerPoints < 21)
+        if (userPoints > computerPoints && computerPoints < 21 || computerPoints > 21)
         {
             System.out.println("you win!");
         } else if (userPoints == computerPoints) {
